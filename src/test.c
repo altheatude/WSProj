@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int* x, y, z, a, b, c;
+int* x, *y, *z, *a, *b, *c;
 
 int main() {
   long i = 0;
